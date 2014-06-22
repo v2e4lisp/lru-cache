@@ -5,11 +5,11 @@ require 'lru/cache/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "lru-cache"
-  spec.version       = Lru::Cache::VERSION
+  spec.version       = LRU::Cache::VERSION
   spec.authors       = ["wenjun.yan"]
   spec.email         = ["mylastnameisyan@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{LRU cache}
+  spec.description   = %q{LRU cache}
   spec.homepage      = ""
   spec.license       = "MIT"
 
