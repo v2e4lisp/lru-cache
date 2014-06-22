@@ -35,9 +35,6 @@ lru.get :k1
 # get upper limit
 lru.max
 
-# reset upper limit
-lru.max = 5
-
 # get lru content
 lru.content
 ```

@@ -9,8 +9,7 @@ module LRU
   end
 
   class Cache
-    attr_reader :content
-    attr_accessor :max
+    attr_reader :content, :max
 
     def initialize(max, hash={})
       @max = max

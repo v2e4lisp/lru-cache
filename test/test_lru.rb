@@ -6,13 +6,10 @@ class TestLRU < MiniTest::Unit::TestCase
   def test_max_accessor
     lru = LRU.create 10
     assert_equal lru.max, 10
-
-    lru.max = 5
-    assert_equal lru.max, 5
   end
   
   def test_content_reader
-    lru = LRU.create 10    
+    lru = LRU.create 10  
     lru[:k1] = :v1
     lru[:k2] = :v2
     assert_equal lru.content, {:k1 => :v1, :k2 => :v2}
