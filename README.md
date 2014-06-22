@@ -19,6 +19,8 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
+require 'lru/cache'
+
 # create a lru cache(size = 10)
 lru = LRU.create 10
 
