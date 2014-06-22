@@ -38,6 +38,7 @@ lru.max = 5
 
 # get lru content
 lru.content
+```
 
 ## Contributing
 
